@@ -1,6 +1,8 @@
 # SeamlessDNS
 
-Public Domain Connect Service for the Agentic Web
+A Non-Profit Domain Connect Service for the Agentic Web
+
+This project is collaboratively hosted by the MIT-adjacent [Foundation for Agentic Networking](https://www.agenticnet.org/) and Linux Foundation.
 
 **SeamlessDNS is open infrastructure for automating DNS configuration.**
 
