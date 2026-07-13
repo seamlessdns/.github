@@ -56,6 +56,8 @@ SeamlessDNS is an **independent open-source initiative** focused on improving DN
 
 We see **Domain Connect** as an important part of the ecosystem and expect to support Domain Connect-compatible tooling, implementations, templates, and adoption. SeamlessDNS is not the owner of the Domain Connect brand; instead, it aims to help strengthen the broader open ecosystem around domain configuration.
 
+However, key contributors to the Domain Connect standard have joined this project.
+
 ## What we’re building
 
 This organization will host work such as:
