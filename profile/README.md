@@ -1,98 +1,57 @@
-# SeamlessDNS
+# Seamless
 
-A Non-Profit Domain Connect Service for the Agentic Web
+Open infrastructure for secure, interoperable connections across services, domains, providers, and agents.
 
-This project is collaboratively hosted by the MIT-adjacent [Foundation for Agentic Networking](https://www.agenticnet.org/) and Linux Foundation.
+[Website](https://seamlessconnect.org/) · [Sponsorship](https://seamlessconnect.org/sponsors/)
 
-**SeamlessDNS is open infrastructure for automating DNS configuration.**
-
-Our goal is simple: make it easy for services, platforms, applications, and agents to set up the DNS records they need — reliably, safely, and without forcing every company into expensive proprietary integration paths.
+Seamless is a nonprofit, Linux Foundation-hosted project supported by the MIT-affiliated [Foundation for Agentic Networks](https://www.agenticnet.org/).
 
 ## Why this exists
 
-Connecting a domain to a service is still too hard.
+Connecting a service still requires too many manual steps, proprietary integrations, and provider-specific workflows. That fragmentation creates cost, support burden, security risk, and lock-in for service platforms, infrastructure providers, developers, and users.
 
-Today, many applications ask users to manually configure DNS records for domain verification, email sending, authentication, SSL, service bootstrap, and other workflows. Some commercial solutions improve this, but they can be expensive, closed, or controlled by a small number of vendors.
+Seamless is building a neutral connection layer that makes configuration, discovery, and verification open, reliable, and auditable. The project begins with domain and DNS configuration, but its scope is intentionally broader: the same open approach can support non-DNS connections between services and across the emerging agentic web.
 
-SeamlessDNS exists to help create a more open path forward:
+## Initial focus: Domain Connect
 
-- easier DNS setup for modern SaaS applications
-- better support for standards-based domain automation
-- open infrastructure for the emerging agentic web
-- a neutral ecosystem that reduces cost and lock-in
+The core maintainers of [Domain Connect](https://www.domainconnect.org/) have joined Seamless. The project is initially focused on operationalizing Domain Connect as broadly usable infrastructure while the [IETF DCONN Working Group](https://datatracker.ietf.org/wg/dconn/about/) advances the protocol on the standards track.
+
+Initial work includes:
+
+- a neutral hosted service
+- open APIs, SDKs, and command-line tooling
+- DNS provider, registrar, and service-platform integrations
+- automated DNS and DNSSEC configuration
+- shared validation, testing, and conformance tooling
+- documentation, examples, and reusable onboarding assets
+
+## Beyond DNS: the agentic web
+
+Agents and agent-enabled services will need open ways to discover one another, establish trust, exchange capabilities, and form authorized connections across organizational and platform boundaries.
+
+Seamless will provide a neutral home for developing those interconnection workflows without requiring them to be DNS-based. This broader scope is a central area of collaboration with the Foundation for Agentic Networks and its work on an open, interoperable agentic web.
 
 ## What we believe
 
-We believe domain configuration should be:
+Connections should be:
 
 - **open** — based on public standards and reusable infrastructure
-- **simple** — easy for developers, platforms, and end users
-- **interoperable** — across DNS providers, registrars, SaaS platforms, and agents
-- **affordable** — not gated behind excessive middleware pricing
-- **future-friendly** — useful for both today’s applications and tomorrow’s agentic workflows
-
-## Scope
-
-SeamlessDNS is intended to support:
-
-- DNS-based service onboarding
-- domain verification and trust establishment
-- TXT, CNAME, MX, SRV, and related record automation
-- Domain Connect-compatible flows and adjacent open standards
-- bootstrap records for agentic environments
-- tooling, documentation, and ecosystem support for providers and services
-
-In practice, that means supporting both:
-
-1. **Legacy and current SaaS use cases**  
-   Email platforms, marketing tools, support systems, auth providers, analytics, and other services that need customers to configure DNS.
-
-2. **The future agentic web**  
-   Agents and agent-enabled systems that need to establish domain-linked trust and publish bootstrap records automatically.
-
-## Relationship to Domain Connect
-
-SeamlessDNS is an **independent open-source initiative** focused on improving DNS automation and domain onboarding.
-
-We see **Domain Connect** as an important part of the ecosystem and expect to support Domain Connect-compatible tooling, implementations, templates, and adoption. SeamlessDNS is not the owner of the Domain Connect brand; instead, it aims to help strengthen the broader open ecosystem around domain configuration.
-
-However, key contributors to the Domain Connect standard have joined this project.
-
-## What we’re building
-
-This organization will host work such as:
-
-- reference implementations
-- provider and service integration tooling
-- validation and testing tools
-- developer SDKs and APIs
-- documentation and examples
-- open templates and onboarding assets
-- ecosystem collaboration around domain automation
-
-## Current status
-
-SeamlessDNS is in its early formation stage.
-
-We are currently:
-- defining project scope
-- setting up governance and repositories
-- shaping the initial technical roadmap
-- identifying sponsors, collaborators, and design partners
+- **neutral** — governed for the benefit of the full ecosystem
+- **simple** — easy for developers, providers, services, agents, and users
+- **interoperable** — portable across platforms and implementation technologies
+- **auditable** — explicit about requested changes, authorization, and results
+- **extensible** — able to support both DNS and non-DNS connection mechanisms
 
 ## Get involved
 
-We’d love to hear from:
+Seamless is forming its launch community and welcomes:
 
-- DNS providers
-- registrars
-- SaaS platforms
-- email/auth/infrastructure vendors
-- open-source maintainers
-- standards participants
-- potential sponsors and ecosystem partners
+- service platforms, DNS providers, registrars, and infrastructure vendors
+- agentic-web projects, researchers, and standards participants
+- open-source maintainers and technical contributors
+- member organizations, sponsors, and design partners
 
-If this mission resonates with you, open an issue or reach out.
+Technical participation is open and independent of sponsorship. Visit [seamlessconnect.org](https://seamlessconnect.org/), review the [sponsorship program](https://seamlessconnect.org/sponsors/), or explore the repositories in this organization to participate.
 
 ## License
 
