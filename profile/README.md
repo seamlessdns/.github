@@ -4,7 +4,7 @@ Open infrastructure for secure, interoperable connections across services, domai
 
 [Website](https://seamlessconnect.org/) · [Sponsorship](https://seamlessconnect.org/sponsors/)
 
-Seamless Connect is an open-source project forming as a Linux Foundation project, with support from the MIT-affiliated [Foundation for Agentic Networks](https://www.agenticnet.org/).
+Seamless Connect is a public-benefit, open-source project, with nonprofit governance provided by the [Foundation for Agentic Networks](https://www.agenticnet.org/), a 501(c)(3) nonprofit and home of the MIT-originated Project NANDA.
 
 ## Why this exists
 
